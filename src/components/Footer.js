@@ -1,5 +1,11 @@
 function Footer(props) {
-    return <h1>Footer</h1>;
+    return (
+    <div className="Footer">
+      <section >
+      <a href="linkedin.com">Linkedin</a>
+      </section>
+    </div>
+    );
   }
   
   export default Footer;
